@@ -24,7 +24,7 @@
 			height:90px;
 			width:90px;
 			border-radius:50%;
-			border:2px solid #2d6392;
+			border:2px solid #2c6190;
 			margin:auto;
 			margin-bottom:15px;
 			background-color: transparent;
@@ -63,7 +63,7 @@
 		
 		.links:hover
 		{
-			background-color: #ff0;
+			background-color: #2c6190;
 		}
 		
 		.navigation > div > a > div
