@@ -1,0 +1,279 @@
+		.my-fa
+		{
+			color: #2d6392;
+		    font-size: 36px;
+		    line-height: 86px;
+		}
+
+		.who:hover .circle
+		{
+			background-color: #2d6392;
+			transform:scale(1.1);
+			border:none;
+		}
+
+		.who:hover .my-fa
+		{
+			color:#fff;
+			transform:rotateY(180deg);
+			transition:all 1.5s ease;
+		}
+
+		.circle
+		{
+			height:90px;
+			width:90px;
+			border-radius:50%;
+			border:2px solid #2c6190;
+			margin:auto;
+			margin-bottom:15px;
+			background-color: transparent;
+		    transition: all .2s ease-in-out; 
+		}
+		.header-div
+		{
+			height:105px !important;
+			padding-top:40px !important;
+			padding-bottom:40px !important;
+		}
+
+		.tagline
+		{
+			margin-top:7%;
+			background-color:black;
+		}
+		
+		.left-margin
+		{
+			margin-left:25%;
+		}
+		
+		.links
+		{
+			font-weight:bold;
+			color:white;
+			text-align:center;
+			borderr: 1px solid red;
+			width: auto;
+			padding: 5px 20px;
+			border-radius: 3px;
+			margin-right:3%;
+			z-index:999;
+		}
+		
+		.links:hover
+		{
+			background-color: #ff0;
+		}
+		
+		.navigation > div > a > div
+		{
+			text-align:center;
+			font-family:cursive;
+			font-size:18px;
+			padding: 5px 20px;
+			width: auto;
+			border-radius: 3px;
+			border:1px solid white;
+			margin-right:10px;
+		}
+		
+		.navigation div
+		{
+			color:#fff;
+		}
+		
+		.navigation > div
+		{
+			padding:40px;
+			/*padding-bottom:110px;*/
+		}
+		.services
+		{
+			text-align:center;
+			background-color:#000;
+			padding:50px 0px;
+			/*border-top:1px solid #949596;*/
+			/*position:absolute;
+			top:240%;
+			z-index: 9;*/
+		}
+		.contact-1
+		{
+			text-align:center;
+			background-color:#272727;
+			padding-bottom:30px;
+			padding-top:30px;
+			border-top:1px solid #949596;
+			color:#000;
+		}
+		.row
+		{
+			margin-left:0px;
+			margin-right:0px;
+		}
+		.about
+		{
+			margin-top:0%;
+			/*position:relative;*/
+			text-align:center;
+			background-color:#000;
+			padding:40px 5px;
+		}
+		
+		.nav-list-small
+		{
+			display:none;
+		}
+		
+		.block
+		{
+			display:block;
+		}
+		
+		button
+		{
+			display:none;
+		}
+		.contact h3
+		{
+			text-align:left;
+		}
+		#about h2,h3
+		{
+			text-align:center;
+		}
+		.right p,.left p
+		{
+			position:absolute;
+		}
+		#home
+		{
+			line-height:normal;
+		}
+		.contact .fa
+		{
+			font-size:16px !important;
+		}
+		
+		#invisible-image
+		{
+			background:url('images/face.jpg') center center no-repeat;
+			opacity:0.3;
+			background-size:cover;			
+		}
+		
+		#invisible-image img
+		{
+			vertical-align: top;
+			width: 100%; /* max width */
+			opacity: 0.4;
+			height:100%;
+		}
+		
+		.left-align
+		{
+			text-align:left;
+			font-size:24px;
+			color:yellow;
+		}
+		
+		.aboutus-box-2 > h3
+		{
+			text-align:center;
+			margin-top:10px;
+		}
+		
+		#about > div > div
+		{
+			padding-top:20px;
+		}
+		.aboutus-box-2
+		{
+			position:absolute;
+			padding:20px;
+			left:0px
+		}
+		
+		.aboutus-box:hover
+		{
+			
+			transform:rotateY(359deg);
+			positionn:relative;
+			topn:-10px;
+			transitionn:1s all ease;
+		}
+		
+		
+		.aboutus-box
+		{
+			padding:20px;
+			border-top:5px solid #949596;
+			background-color:transparent;
+			/* opacity:0.9;*/
+			border-radius:10px;		
+			color:#fff;
+		}
+		
+		
+		.home-text
+		{
+			text-align:center;
+			font-size:116px;
+			color:#fff;
+			font-family:cursive;
+		} 
+		
+		.header-logo
+		{
+			text-align:center;
+			font-family:arial;
+			padding:20px;
+		}
+		
+		.header-logo > h1
+		{
+			margin-top:10px;
+			color:#94e8c2;
+		}
+		
+		
+		
+		.navbar-small
+		{
+			padding:5px 0px;
+			text-align:center;
+			margin-bottom:2px;
+			background-color:rgb(184, 228, 212);
+			border-right:1px solid teal;
+			border-radius:5px;
+			color:#3ca3a9;
+			text-transform:uppercase;
+			z-index:9999;
+		}
+		
+		@media only screen and (max-width:900px)
+		{
+			.nav-list
+			{
+				display:none;
+			}
+		}
+		
+		@media only screen and (max-width:900px)
+		{
+			button
+			{
+				display:block;
+				margin-left:20px;
+			}
+		}
+		
+		@media only screen and (max-width:768px)
+		{
+			.home-text
+			{
+				font-size:68px;
+			}
+		
+		}
